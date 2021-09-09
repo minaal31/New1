@@ -9,8 +9,9 @@ public class Hi {
         List<String> list = new ArrayList();
         list.add("123");
         list.add("234");
-        List newList =list.stream().filter(x-> x.contains("1")).collect(Collectors.toList());
-        list.forEach(x-> System.out.println(x));
+        List newList =list.stream().filter(x-> x.contains("2")).collect(Collectors.toList());
+        newList.forEach(x-> System.out.println(x));
+
 
     }
 
